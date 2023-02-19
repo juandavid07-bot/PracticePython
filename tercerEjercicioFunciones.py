@@ -10,7 +10,7 @@ def dibujar1(anchura):
 
 def dibujar2(anchura):
    for i in range(anchura,0,-1) : # con este metodo podemos recorrer al rever un ciclo for 
-     for j in range(i,0,-1):
+     for j in range(i,0,-1):     # o Tambien se puede utilizar este metodo for j in range(anchura - i):
         print("* ",end=" ")
      print()
 
